@@ -58,7 +58,6 @@ This resize filename.jpg as 500x500.
 
 eg3.
 sh resize.sh filename.jpg 500x500 newfile.jpg
-
 This copy filename.jpg to newfile.jpg resized as 500x500.
 
 "
