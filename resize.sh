@@ -48,13 +48,20 @@ if [ $# == "0" ] ; then
 	echo "Usage: sh resize.sh SRC GEOMETRY [DIST] [TYPE]
 Resize images from SRC (file or folder) as GEOMETRY
 
-eg.
+eg1.
 sh resize.sh ~/Picture 500x500
 This makes DIRECTORY 'resize' in ~/Picture , and then make resized image as 500x500 in ~/Picture/resize/ , geometry is not changed.
 
 eg2.
 sh resize.sh filename.jpg 500x500
-This resize filename.jpg as 500x500."
+This resize filename.jpg as 500x500.
+
+eg3.
+sh resize.sh filename.jpg 500x500 newfile.jpg
+
+This copy filename.jpg to newfile.jpg resized as 500x500.
+
+"
 
 	
 elif [ -f $SRC ] ; then
