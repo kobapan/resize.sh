@@ -17,8 +17,7 @@
 #
 # sh resize.sh SRC-DIRECTORY GEOMETORY [TYPE] [DIST-DIRECTORY]
 #
-# eg.
-#
+# eg1.
 # sh resize.sh ~/Picture 500x500
 #
 # This makes DIRECTORY `resize` in ~/Picture , and then make resized image as 500x500
