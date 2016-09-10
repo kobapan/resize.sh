@@ -5,7 +5,7 @@
 # ######################
 # This software use `ImageMagick`
 #
-# If you are using Ubuntu
+# If you are using Ubuntu / Debian
 # type
 #
 # $ sudo apt-get install imagemagick
