@@ -1,0 +1,39 @@
+########################
+# resize.sh
+# This is Free Software
+#
+# ######################
+# This software use `ImageMagick`
+#
+# If you are using Ubuntu
+# type
+#
+# $ sudo apt-get install imagemagick
+#
+# to install `ImageMagick`
+#
+########################
+# Usage
+#
+# sh resize.sh SRC-DIRECTORY GEOMETORY [TYPE] [DIST-DIRECTORY]
+#
+# eg.
+#
+# sh resize.sh ~/Picture 500x500
+#
+# This makes DIRECTORY `resize` in ~/Picture , and then make resized image as 500x500
+# in ~/Picture/resize/ , geometry is not changed.
+#
+# If you want to change geometry run resize.sh like
+#
+# sh resize.sh ~/Picture 500x500!
+#
+# eg2.
+# sh resize.sh filename.jpg 500x500
+#
+# This resize filename.jpg as 500x500.
+#
+# eg3.
+# sh resize.sh filename.jpg 500x500 newfile.jpg
+#
+# This copy filename.jpg to newfile.jpg resized as 500x500.
